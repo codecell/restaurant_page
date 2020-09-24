@@ -3,6 +3,8 @@ import './css/style.css';
 import about from './components/about';
 import footer from './components/footer';
 import home from './components/home';
+import menu from './components/menu';
+import contact from './components/contact';
 import { content, wrapper } from './components/shared';
 
 
@@ -13,15 +15,32 @@ content.appendChild(footer);
 
 const navLinks = document.querySelectorAll('.nav-item');
 
-navLinks.forEach((nav) => {
-  nav.addEventListener('click', () => {
-    if (nav.textContent === 'home') {
+const renderPage = page => {
+  switch (page.textContent) {
+    case 'home':
       wrapper.innerHTML = home;
       content.appendChild(wrapper);
-    }
-    if (nav.textContent === 'about') {
+      break;
+    case 'menu':
+      wrapper.innerHTML = menu;
+      content.appendChild(wrapper);
+      break;
+    case 'contact':
+      wrapper.innerHTML = contact;
+      content.appendChild(wrapper);
+      break;
+    case 'about':
       wrapper.innerHTML = about;
       content.appendChild(wrapper);
-    }
+      break;
+    default:
+      wrapper.innerHTML = home;
+      content.appendChild(wrapper);
+  }
+};
+
+navLinks.forEach((nav) => {
+  nav.addEventListener('click', () => {
+    renderPage(nav);
   });
 });
