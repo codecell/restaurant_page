@@ -4,7 +4,7 @@ This my implementation of the odin project [restaurant page](https://www.theodin
 ## Preview
 |                |                |
 |----------------|----------------|
-|``<img src='./src/images/home_shot.png' />`` | ``<img src='./src/images/menu_shot.png' />``|
+|<img src='./src/images/home_shot.png' />|<img src='./src/images/menu_shot.png' />|
 
 ## Live Version
   - The project is deployed on netlify (here)[https://elated-bassi-162bd5.netlify.app/]
