@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size: 16px 16px;
+  min-height: 100vh;
+  color: #efefef;
+}
+
+.footer a {
+  color: #efefef;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.about-header {
+  text-align: center;
+  margin: 3%;
+}
+
+.navbar {
+  height: 80px;
+  border-bottom: 1.2px solid burlywood;
+  padding: 1.8%;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin: 1.2em;
+  font-size: 1.4em;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid burlywood;
+}
+
+.home-page > h1 {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.about-page {
+  padding: 4%;
+}
+
+.hero-img {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  object-fit: contain;
+  z-index: -1;
+  height: 80%;
+  width: 50%;
+  opacity: 0.3;
+}
