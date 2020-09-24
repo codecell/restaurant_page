@@ -1,6 +1,11 @@
 ## Restaurant Page
 This my implementation of the odin project [restaurant page](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) project to demonstrate the use of (webpack)[https://webpack.js.org/].
 
+## Preview
+|                |                |
+|----------------|----------------|
+|```<img src='./src/images/home_shot.png' />```| ```<img src='./src/images/menu_shot.png' />``|
+
 ## Technologies
   - (Webpack)[https://webpack.js.org/]
   - Javascript
@@ -14,7 +19,7 @@ Follow the steps below to test the project locally. First ensure you have a vers
 2. Navigate to the project directory `cd restaurant_page`.
 3. Install project dependencies `npm install`
 4. Run `npm run webpack` to compile a development build and start watching for any changes too.
-5. visit `http://localhost:8080/dist/index.html` and voila!!!.
+5. visit `http://localhost:8080/build/index.html` and voila!!!.
 
 👤 **Ezaka Alfred**
 
