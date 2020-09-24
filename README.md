@@ -1,5 +1,5 @@
 ## Restaurant Page
-This my implementation of the odin project [restaurant page](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) project to demonstrate the use of (webpack)[https://webpack.js.org/].
+This my implementation of the odin project (restaurant page)[https://www.theodinproject.com/courses/javascript/lessons/restaurant-page] project to demonstrate the use of (webpack)[https://webpack.js.org/].
 
 ## Preview
 |                |                |
@@ -7,10 +7,10 @@ This my implementation of the odin project [restaurant page](https://www.theodin
 |<img src='./src/images/home_shot.png' />|<img src='./src/images/menu_shot.png' />|
 
 ## Live Version
-  - The project is deployed on netlify (here)[https://elated-bassi-162bd5.netlify.app/]
+  - The project is deployed on netlify [here](https://elated-bassi-162bd5.netlify.app/)
 
 ## Technologies
-  - (Webpack)[https://webpack.js.org/]
+  - [Webpack](https://webpack.js.org/)
   - Javascript
   - HTML
   - CSS
