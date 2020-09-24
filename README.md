@@ -1,5 +1,5 @@
 ## Restaurant Page
-This my implementation of the odin project (restaurant page)[https://www.theodinproject.com/courses/javascript/lessons/restaurant-page] project to demonstrate the use of (webpack)[https://webpack.js.org/].
+This my implementation of the odin project [restaurant page](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) project to demonstrate the use of [webpack](https://webpack.js.org/).
 
 ## Preview
 |                |                |
@@ -16,7 +16,7 @@ This my implementation of the odin project (restaurant page)[https://www.theodin
   - CSS
 
 ## Installation
-Follow the steps below to test the project locally. First ensure you have a version of [Node.js](http://nodejs.org/) equal or greater than v6.10.0.
+Follow the steps below to test the project locally. First ensure you have a version of [Node.js](http://nodejs.org/) equal or greater than v6.10.0 installed.
 
 1. Clone the repository from a terminal `https://github.com/codecell/restaurant_page.git`.
 2. Navigate to the project directory `cd restaurant_page`.
