@@ -1,5 +1,5 @@
 import '../css/style.css';
-import { waiterImg } from './shared';
+import waiterImg from '../images/waiter.png';
 
 const home = `
   <div class="home-page">
