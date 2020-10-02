@@ -21,8 +21,8 @@ Follow the steps below to test the project locally. First ensure you have a vers
 1. Clone the repository from a terminal `https://github.com/codecell/restaurant_page.git`.
 2. Navigate to the project directory `cd restaurant_page`.
 3. Install project dependencies `npm install`
-4. Run `npm run webpack` to compile a development build and start watching for any changes too.
-5. visit `http://localhost:8080/build/index.html` and voila!!!.
+4. Run `npm run webpack` to compile a development build.
+5. Run `npm run start` to serve the project live on `http://localhost:9000` and voila!!!.
 
 👤 **Ezaka Alfred**
 

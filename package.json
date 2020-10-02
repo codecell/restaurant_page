@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "npx webpack --mode development --watch",
     "build": "webpack --mode production",
+    "start-dev": "webpack-dev-server --mode development --open --hot",
     "eslint": "./node_modules/.bin/eslint ./src/**.*js ./src/components/**.*js",
     "eslint-fix": "./node_modules/.bin/eslint ./src/**.*js ./src/components/**.*js ./webpack.config.js --fix"
   },
@@ -36,6 +37,7 @@
     "css-loader": "^4.3.0",
     "file-loader": "^6.1.0",
     "materialize-css": "^1.0.0-rc.2",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "webpack-dev-server": "^3.11.0"
   }
 }
